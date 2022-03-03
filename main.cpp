@@ -51,7 +51,7 @@ int main() {
         }
     }
     if(knownChars == wordSize) {
-        cout << "Sehr gut gemacht. Du hast das Wort erraten und " << tries << " Versuche gebraucht!";
+        cout << "Sehr gut gemacht. Du hast das Wort " << word << " richtig erraten!" << endl << "Du hast das " << tries << " Versuche gebraucht!";
     }
     else {
         cout << "Leider verloren. Probiere es erneut!" << endl;
